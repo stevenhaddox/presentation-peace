@@ -34,6 +34,9 @@
     <a href="http://stevenhaddox.com">Steven Haddox</a> ||
     <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a>
   </p>
+  <p>
+    <a href="http://peace-in-the-enterprise.herokuapp.com">http://peace-in-the-enterprise.herokuapp.com</a>
+  </p>
 </section>
 
 <section data-markdown>
@@ -85,146 +88,433 @@
 </script>
 </section>
 
-
-<section>
-  <section data-markdown>
-  <script type="text/template">
-  ## agile & the Rabbit Hole
-  <hr />
-
-  <h3 class="fragment">Common Enterprise Arguments</h3>
-
-  <ul>
-  <li class="fragment">What is this agile you speak of?</li>
-  <li class="fragment">We already do / know Agile!</li>
-  <li class="fragment">10 other teams failed with Agile</li>
-  </ul>
-  </script>
-  </section>
-
-  <section data-markdown>
-  <script type="text/template">
-  ## Use Your Backbone
-  <hr />
-
-  <h3 class="fragment">This is a fight worth fighting</h3>
-
-  <ul>
-  <li class="fragment">Sets a precedent for your project & management</li>
-  <li class="fragment">Establishes you as a **wise** leader</li>
-  <li class="fragment">Shows management you won't compromise when it matters</li>
-  <li class="fragment">Gives you a measurable metric for performance (velocity avg)</li>
-  <li class="fragment">Usually the first battle you'll have with management</li>
-  </ul>
-  </script>
-  </section>
-
-  <section data-markdown>
-  <script type="text/template">
-  ## Okay, How Do I Sell It?
-  <hr />
-
-  <h3 class="fragment">3 Biggest Benefits I've Found for Agile in Enterprise:</h3>
-  <ol>
-  <li class="fragment">Accountability for both customers & developers</li>
-  <li class="fragment">Measurable performance & more accurate estimates</li>
-  <li class="fragment">Frequent demos & releases gets everyone excited!</li>
-  </ol>
-  </script>
-  </section>
-
-  <section data-markdown>
-  <script type="text/template">
-  ## Ensure it Succeeds
-  <hr />
-  <ul>
-  <li class="fragment">Customers **must** be at planning meetings!</li>
-  <li class="fragment">**Srsly**</li>
-  <li class="fragment">Do **NOT** take shortcuts
-    <ul><li class="fragment">Do **NOT** skip on testing (you're not a startup)!</li></ul>
-  </li>
-  <li class="fragment">Do **NOT** commit to a certain scope of stories **AND** a timebox
-    <ul>
-    <li class="fragment">Guranteed failure!</li>
-    <li class="fragment">It will impact your credibility to management</li>
-    <li class="fragment">Testing will almost always be the first sacrifice</li>
-    </ul>
-  </li>
-  </ul>
-  </script>
-  </section>
-</section>
-
-<section>
-  <section data-markdown>
-  <script type="text/template">
-  ## Security FTW
-  </script>
-  </section>
-
-  <section data-markdown>
-  <script type="text/template">
-  ## Bye-bye `sudo`
-  </script>
-  </section>
-
-  <section data-markdown>
-  <script type="text/template">
-  ## What's a firewall hole?
-  </script>
-  </section>
-
-  <section data-markdown>
-  <script type="text/template">
-  ## A see name?
-  </script>
-  </section>
-
-  <section data-markdown>
-  <script type="text/template">
-  ## Resources: You aren't gonna get it
-  </script>
-  </section>
-</section>
-
 <section data-markdown>
 <script type="text/template">
-  ## Development Gotchas
+  ## Definition
+  ---
 
-
+  <h3 class="fragment">What do I mean by "Enterprise"?</h3>
+  <p class="fragment">Any environment in which a developer is restricted from performing their
+  duties however they see fit.</p>
 </script>
 </section>
 
 <section>
   <section data-markdown>
   <script type="text/template">
-    ## OSS to the Rescue!
+    ## agile & the Rabbit Hole
+    ---
 
-    * Provisioning: [Chef](http://docs.opscode.com/#the-chef-server)
-    * Git: [GitLabHQ](https://github.com/gitlabhq/gitlabhq)
-    * Continuous Integration: [Jenkins](http://jenkins-ci.org/)
-    * Email / SMTP: [Mailcatcher](http://mailcatcher.me/)
-    * Errors: [Errbit](https://github.com/errbit/errbit)
-    * Metrics: [Fnordmetric](https://github.com/paulasmuth/fnordmetric)
-    * Wiki: [Gollum](https://github.com/gollum/gollum)
-    * Security: [Snorby](https://snorby.org/)
+    <h3 class="fragment">Common Enterprise Arguments</h3>
+
+    <ul>
+    <li class="fragment">What is this agile you speak of?</li>
+    <li class="fragment">We already do / know Agile!</li>
+    <li class="fragment">10 other teams failed with Agile</li>
+    </ul>
+  </script>
+  </section>
+
+  <section data-markdown>
+  <script type="text/template">
+    ## Use Your Backbone
+    ---
+
+    <h3 class="fragment">This is a fight worth fighting</h3>
+
+    <ul>
+    <li class="fragment">Sets a precedent for your project & management</li>
+    <li class="fragment">Establishes you as a **wise** leader</li>
+    <li class="fragment">Shows management you won't compromise when it matters</li>
+    <li class="fragment">Gives you a measurable metric for performance (velocity avg)</li>
+    <li class="fragment">Usually the first battle you'll have with management</li>
+    </ul>
+  </script>
+  </section>
+
+  <section data-markdown>
+  <script type="text/template">
+    ## Okay, How Do I Sell It?
+    ---
+
+    <h3 class="fragment">3 Biggest Benefits I've Found for Agile in Enterprise:</h3>
+    <ol>
+    <li class="fragment">Accountability for both customers & developers</li>
+    <li class="fragment">Measurable performance & more accurate estimates</li>
+    <li class="fragment">Frequent demos & releases gets everyone excited!</li>
+    </ol>
+  </script>
+  </section>
+
+  <section data-markdown>
+  <script type="text/template">
+    ## Ensure it Succeeds
+    ---
+
+    <ul>
+    <li class="fragment">Customers **must** be at planning meetings!</li>
+    <li class="fragment">**Srsly**</li>
+    <li class="fragment">Do **NOT** take shortcuts
+      <ul><li class="fragment">Do **NOT** skip on testing (you're not a startup)!</li></ul>
+    </li>
+    <li class="fragment">Do **NOT** commit to a certain scope of stories **AND** a timebox
+      <ul>
+      <li class="fragment">Guranteed failure!</li>
+      <li class="fragment">It will impact your credibility to management</li>
+      <li class="fragment">Testing will almost always be the first sacrifice</li>
+      </ul>
+    </li>
+    </ul>
+
+    <aside class="notes">
+    As we get some form of agile implementation in place for our team we've
+    managed to loosen one of the most constraining pieces of the Enterprise.
+    </aside>
+  </script>
+  </section>
+</section>
+
+<section>
+  <section data-markdown>
+  <script type="text/template">
+    ## Security FTW
+
+    > One of the worst things you can do is say,<br />
+    > "I don't need to write secure code,<br />
+    > because my app is in a secure network."
+
+    > \- Bryan Helmkamp
+  </script>
+  </section>
+
+  <section data-markdown>
+  <script type="text/template">
+    ## Principle of "Least Privilege"
+    ---
+
+    <h3 class="fragment">a.k.a., Bye-bye `sudo`</h3>
+  </script>
+  </section>
+
+  <section data-markdown>
+  <script type="text/template">
+    ## Why is having sudo critical for our jobs?
+    ---
+
+    <ul>
+    <li class="fragment">Port 22, 80, and 443 require sudo or root</li>
+    <li class="fragment">Creating new users & groups require sudo</li>
+    <li class="fragment">SSH key-based auth config requires sudo (enabled by default)</li>
+    <li class="fragment">init & service scripts need to run as root</li>
+    </ul>
+
+    <div class="fragment">
+    <hr />
+    <ul>
+    <li class="fragment">Very few things actually **require** sudo</li>
+    <li class="fragment">So why do we want it?
+      <ul>
+      <li class="fragment">**LAZY**</li>
+      </ul>
+    </li>
+    </ul>
+    </div>
+  </script>
+  </section>
+
+  <section data-markdown>
+  <script type="text/template">
+    ![Use the Source](images/luke.jpg)
+  </script>
+  </section>
+
+  <section data-markdown>
+  <script type="text/template">
+    ## Stow away!
+    ---
+
+    [GNU Stow](http://www.gnu.org/software/stow/)
+
+    ```
+    $ mkdir -p ${HOME}/opt/stow
+    $ echo "export STOW=\${HOME}/opt/stow" >> ${HOME}/.bashrc
+    $ echo "export PATH=\${HOME}/opt/bin:\${PATH}" >> ${HOME}/.bashrc
+    $ source ${HOME}/.bashrc
+    $ cd <lib_source_dir>
+    $ ./configure --prefix=${STOW}/<lib>-<version>
+    $ make; make install prefix=${STOW}/<lib>-<version>
+    $ cd ${STOW}
+    $ stow <lib>-<version>
+    $ source ${HOME}/.bashrc
+    $ which <lib>
+    #=> ${HOME}/opt/bin/<lib>
+    ```
+  </script>
+  </section>
+
+  <section data-markdown>
+  <script type="text/template">
+    ## Resources: You Aren't Gonna Get It
+    ---
+
+    <ul>
+    <li class="fragment">Enterprise likes keeping their $$$</li>
+    <li class="fragment">If you get big enough, they'll find resources for you</li>
+    </ul>
+  </script>
+  </section>
+
+  <section data-markdown>
+  <script type="text/template">
+    ## Hosting Multiple Applications
+    ---
+
+    <ul>
+    <li class="fragment">What's a firewall hole?</li>
+    <li class="fragment">A see name?</li>
+    <li class="fragment">Pick one, any one!
+      <ul><li class="fragment">Fight!</li></ul>
+    </li>
+    </ul>
+
+    <aside class="notes">
+    Now that we've isolated our development environment from the noose that's
+    our overprotective security team we can finally start to breathe a little.
+    </aside>
+  </script>
+  </section>
+</section>
+
+<section>
+  <section data-markdown>
+  <script type="text/template">
+    ## Development Gotchas
+    ---
+
+    <p class="fragment">Let's try to go top -> down</p>
+  </script>
+  </section>
+
+  <section data-markdown>
+  <script type="text/template">
+    ## All your servers are belong to them...
+    ---
+
+    <ul>
+    <li class="fragment">Development</li>
+    <li class="fragment">Support</li>
+    <li class="fragment">Staging</li>
+    <li class="fragment">Production</li>
+    </ul>
+
+    <img src="images/server_infrastructure.png" class="fragment" />
+  </script>
+  </section>
+
+  <section data-markdown>
+  <script type="text/template">
+    ## Server Users
+    ---
+    <p>Principle of least privilege (developer style)</p>
+
+    <ul>
+    <li class="fragment">Deploy user</li>
+    <li class="fragment">SysAdmin user</li>
+    </ul>
+  </script>
+  </section>
+
+  <section data-markdown>
+  <script type="text/template">
+    ## Server Users (cont.)
+    ---
+
+    <ul>
+    <li>Enable ssh key-based authentication</li>
+    <li class="fragment">SysAdmin user does all the work
+      <ul>
+      <li>Setup Apache/Nginx</li>
+      <li>Setup DBs (Postgres, MySQL, Redis, Mongo, etc.)</li>
+      <li>Setup Ruby, Passenger, etc.</li>
+      </ul>
+    </li>
+    <li class="fragment">Deploy user does two things:
+      <ul>
+      <li>Deploys the code to $HOME/u/<site> with Capistrano</li>
+      <li>Ensures Apache user (sysadmin) can read from app folder & parent dirs.</li>
+      </ul>
+    </li>
+    <li class="fragment">Deploy user does **NOT**:
+      <ul>
+      <li>Have access to the sysadmin user in **any** form</li>
+      <li>Run services or privileged operations of any kind</li>
+      </ul>
+    </li>
+    </ul>
+  </script>
+  </section>
+
+  <section data-markdown>
+  <script type="text/template">
+    ## Application Setup
+    ---
+
+    <ul>
+    <li class="fragment">Install supporting libs / apps via GNU Stow</li>
+    <li class="fragment">Deploy your application via Capistrano</li>
+    <li class="fragment">Vendor your gems via `bundle package`</li>
+    </ul>
+  </script>
+  </section>
+
+  <section data-markdown>
+  <script type="text/template">
+    ## Capistrano Tips
+    ---
+
+    <ul>
+    <li class="fragment">Ensure you have SSH key-based auth enabled (again!)</li>
+    <li class="fragment">Deploy via `remote_cache` if you can</li>
+    <li class="fragment">Deploy via `copy` if you can't access your SCM repo</li>
+    <li class="fragment">Use capistrano multistage (now built-in)</li>
+    </li>
+  </script>
+  </section>
+
+  <section data-markdown>
+  <script type="text/template">
+    ## Your Editor
+    ---
+
+    <ul>
+    <li class="fragment">Many developers in Enterprise stuck using Windows
+      <ul>
+      <li class="fragment">I **won't** develop on a system that different from my servers</li>
+      <li class="fragment">Use a development Linux server</li>
+      <li class="fragment">Then SSH in via PuTTY (or similar)</li>
+      </ul>
+    </li>
+    <li class="fragment">But where's SublimeText?!
+      <ul>
+      <li class="fragment">Forget it, you aren't going to need it!</li>
+      <li class="fragment">Learn vim!</li>
+      </ul>
+    </li>
+    <li class="fragment">Why not emacs?
+      <ul>
+      <li class="fragment">I've used servers without emacs</li>
+      <li class="fragment">I've never seen a server without vim</li>
+      <li class="fragment">Not an emacs hater, just my experience</li>
+      </ul>
+    </li>
+    </ul>
+
+    <aside class="notes">
+    Since our development environment is now something with sanity, and can
+    actually bring us joy, it's evident that we are starting to get our own
+    identity in an organization of suits.
+    </aside>
+  </script>
+  </section>
+</section>
+
+<section>
+  <section data-markdown>
+  <script type="text/template">
+    ## Getting to Your Code
+    ---
+
+    <ul>
+    <li class="fragment">SCM?</li>
+    <li class="fragment">Documentation wiki?</li>
+    <li class="fragment">Agile project management?</li>
+    <li class="fragment">Error monitoring?</li>
+    <li class="fragment">Provisioning?</li>
+    <li class="fragment">... o_O</li>
+    </ul>
+
+    <aside class="notes">
+    Now that we have tools in place to help support our team that are capable
+    of providing the same features of our normal programming friends, it's like
+    we are practically telecommuting to work while pantless!
+    </aside>
+  </script>
+  </section>
+  <section data-markdown>
+  <script type="text/template">
+    ## OSS to the Rescue!
+    ---
+
+    <ul>
+    <li class="fragment">Provisioning: [Chef](http://docs.opscode.com/#the-chef-server)</li>
+    <li class="fragment">Git: [GitLabHQ](https://github.com/gitlabhq/gitlabhq)</li>
+    <li class="fragment">Continuous Integration: [Jenkins](http://jenkins-ci.org/)</li>
+    <li class="fragment">Email / SMTP: [Mailcatcher](http://mailcatcher.me/)</li>
+    <li class="fragment">Errors: [Errbit](https://github.com/errbit/errbit)</li>
+    <li class="fragment">Metrics: [Fnordmetric](https://github.com/paulasmuth/fnordmetric)</li>
+    <li class="fragment">Wiki: [Gollum](https://github.com/gollum/gollum)</li>
+    <li class="fragment">Security: [Snorby](https://snorby.org/)</li>
+    </ul>
   </script>
   </section>
 
   <section data-markdown>
   <script type="text/template">
     ## OSS (continued)
+    ---
 
-    * Ruby:
-      * Gems: [GemInABox](https://github.com/cwninja/geminabox)
-      * Rubiez: [RVM::FW](https://github.com/stevenhaddox/rvm_fw)
-    * Agile Project Management:
-      * [Fulcrum](https://github.com/malclocke/fulcrum)
-      * [Redmine](http://www.redmine.org/)
-      * [Chili Project](https://www.chiliproject.org/)
-    * Logs:
-      * [Logstash](http://logstash.net/)
-      * [Kibana](http://kibana.org/)
+    <ul>
+    <li class="fragment">Ruby:
+      <ul>
+      <li class="fragment">Gems: [GemInABox](https://github.com/cwninja/geminabox)</li>
+      <li class="fragment">Rubiez: [RVM::FW](https://github.com/stevenhaddox/rvm_fw)</li>
+      </ul>
+    </li>
+    <li class="fragment">Agile Project Management:
+      <ul>
+      <li class="fragment">[Fulcrum](https://github.com/malclocke/fulcrum)</li>
+      <li class="fragment">[Redmine](http://www.redmine.org/)</li>
+      <li class="fragment">[Chili Project](https://www.chiliproject.org/)</li>
+      </ul>
+    </li>
+    <li class="fragment">Logs:
+      <ul>
+      <li class="fragment">[Logstash](http://logstash.net/)</li>
+      <li class="fragment">[Kibana](http://kibana.org/)</li>
+      </ul>
+    </li>
+  </script>
+  </section>
+
+  <section data-markdown>
+  <script type="text/template">
+    ## What's next?
+    ---
+
+<aside class="notes">
+So what's next? Now that we know how to claim our identity, be professional
+developers, and isolate ourselves from the policies of our environment as much
+as possible. Now we automate!
+Enter SUPPORT:
+</aside>
+
+    <p class="fragment">Automate all the things!</p>
+    <ul>
+    <li class="fragment">**S**etting</li>
+    <li class="fragment">**U**p &</li>
+    <li class="fragment">**P**rovisioning</li>
+    <li class="fragment">**P**ragmatic</li>
+    <li class="fragment">**O**SS</li>
+    <li class="fragment">**R**uby</li>
+    <li class="fragment">**T**echnologies</li>
+    </ul>
+
+    <div class="fragment">
+      <hr />
+      <p>[SUPPORT](https://github.com/stevenhaddox/SUPPORT)</p>
+      <p>Special thanks to [Kenrick Chien](https://github.com/kchien) for his
+      contributions!</p>
+    </div>
   </script>
   </section>
 </section>
@@ -234,6 +524,9 @@
   # Moral of My Story:
 
   ## Fight the good fight, no matter the odds!
+
+  <p class="fragment">Just because you work **in** the Enterprise does not mean
+  you're part **of** the Enterprise.</p>
 
   <p class="fragment">And remember...</p>
 </script>
@@ -247,11 +540,9 @@
 
 
 <section>
-  <h1>THE END</h1>
+  <h1>QUESTIONS?</h1>
   <h3><a href="http://twitter.com/stevenhaddox/">@stevenhaddox</a> || <a href="http://stevenhaddox.com">stevenhaddox.com</a></h3>
 </section>
-
-<section data-markdown="example.md" data-separator="^\n\n\n" data-vertical="^\n\n"></section>
 
 </div>
 </div>
